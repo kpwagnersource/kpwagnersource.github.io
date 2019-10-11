@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        :root {
+            --yellow: #feffcb;
+            --orange: #ffb576;
+            --light-red: #ff6b83;
+            --red: #c6394d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        body {
+            background-color: #eee;
+        }
+
+        .section {
+            margin: 100px 0;
+            padding: 50px 0;
+            display: block;
+            width: 100%;
+            background-color: var(--yellow);
+        }
+
+        .container {
+            display: block;
+            position: relative;
+            margin: 0 auto;
+            max-width: 1300px;
+        }
+
+        .photobox-list {
+            display: flex;
+            justify-content: space-around;
+            height: 600px;
+            /*background-color: var(--orange);*/
+        }
+
+        .photobox-list-item {
+            width: 24%;
+            /*background-color: var(--light-red);*/
+        }
+
+        .photobox-column-list {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+
+        .photobox-column-list-item {
+            display: block;
+            background-color: var(--red);
+        }
+
+        #box-1 {
+            height: 44%;
+        }
+
+        #box-2 {
+            height: 54%;
+        }
+
+        #box-3 {
+            height: 39%;
+        }
+
+        #box-4 {
+            height: 59%;
+        }
+
+        #box-5 {
+            height: 59%;
+        }
+
+        #box-6 {
+            height: 39%;
+        }
+
+        #box-7 {
+            height: 100%;
+        }
+
+        #box-8 {
+            height: 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <ul class="photobox-list">
+                <li class="photobox-list-item">
+                    <ul class="photobox-column-list">
+                        <li class="photobox-column-list-item" id="box-1"></li>
+                        <li class="photobox-column-list-item" id="box-2"></li>
+                    </ul>
+                </li>
+                <li class="photobox-list-item">
+                    <ul class="photobox-column-list">
+                        <li class="photobox-column-list-item" id="box-3"></li>
+                        <li class="photobox-column-list-item" id="box-4"></li>
+                    </ul>
+                </li>
+                <li class="photobox-list-item">
+                    <ul class="photobox-column-list">
+                        <li class="photobox-column-list-item" id="box-5"></li>
+                        <li class="photobox-column-list-item" id="box-6"></li>
+                    </ul>
+                </li>
+                <li class="photobox-list-item">
+                    <ul class="photobox-column-list">
+                        <li class="photobox-column-list-item" id="box-7"></li>
+                        <li class="photobox-column-list-item" id="box-8"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
