@@ -60,7 +60,19 @@
 
         .photobox-column-list-item {
             display: block;
+            position: relative;
             background-color: var(--red);
+            overflow: hidden;
+        }
+
+        .photobox-column-list-item-img {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 130%;
+
         }
 
         #box-1 {
@@ -103,26 +115,42 @@
             <ul class="photobox-list">
                 <li class="photobox-list-item">
                     <ul class="photobox-column-list">
-                        <li class="photobox-column-list-item" id="box-1"></li>
-                        <li class="photobox-column-list-item" id="box-2"></li>
+                        <li class="photobox-column-list-item" id="box-1">
+                            <img class="photobox-column-list-item-img" src="./arch-1.jpg">
+                        </li>
+                        <li class="photobox-column-list-item" id="box-2">
+                            <img class="photobox-column-list-item-img" src="./arch-2.jpg">
+                        </li>
                     </ul>
                 </li>
                 <li class="photobox-list-item">
                     <ul class="photobox-column-list">
-                        <li class="photobox-column-list-item" id="box-3"></li>
-                        <li class="photobox-column-list-item" id="box-4"></li>
+                        <li class="photobox-column-list-item" id="box-3">
+                            <img class="photobox-column-list-item-img" src="./arch-3.jpg">
+                        </li>
+                        <li class="photobox-column-list-item" id="box-4">
+                            <img class="photobox-column-list-item-img" src="./arch-4.jpg">
+                        </li>
                     </ul>
                 </li>
                 <li class="photobox-list-item">
                     <ul class="photobox-column-list">
-                        <li class="photobox-column-list-item" id="box-5"></li>
-                        <li class="photobox-column-list-item" id="box-6"></li>
+                        <li class="photobox-column-list-item" id="box-5">
+                            <img class="photobox-column-list-item-img" src="./arch-5.jpg">
+                        </li>
+                        <li class="photobox-column-list-item" id="box-6">
+                            <img class="photobox-column-list-item-img" src="./arch-6.jpg">
+                        </li>
                     </ul>
                 </li>
                 <li class="photobox-list-item">
                     <ul class="photobox-column-list">
-                        <li class="photobox-column-list-item" id="box-7"></li>
-                        <li class="photobox-column-list-item" id="box-8"></li>
+                        <li class="photobox-column-list-item" id="box-7">
+                            <img class="photobox-column-list-item-img" src="./arch-7.jpg">
+                        </li>
+                        <li class="photobox-column-list-item" id="box-8">
+                            <img class="photobox-column-list-item-img" src="./arch-8.jpg">
+                        </li>
                     </ul>
                 </li>
             </ul>
