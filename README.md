@@ -4,7 +4,7 @@
 
 This layout uses nested lists styled as flexboxes. There ends up being a lot of markup with this method--may not be the best. The images are set within the list-item elements, and those list-item elements are styled with overflow:hidden.
 
-The animation is incomplete. The overflow:hidden property is not functioning correctly with the rotateY animation (i.e. the part of the image that should be hidden show while the image is rotating.) Also, the "flip card" should have a 3d effect to it, which is currently not working.
+The animation is incomplete. The overflow:hidden property is not functioning correctly with the rotateY animation (i.e. the part of the image that should be hidden shows while the image is rotating.) Also, the "flip card" should have a 3d effect to it, which is currently not working.
 
 [Flip Card Tutorial on W3 Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
